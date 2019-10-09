@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ScalaCompilerConfiguration">
+    <option name="incrementalityType" value="SBT" />
+    <profile name="sbt 1" modules="bitcoin-streaming" />
+    <profile name="sbt 2" modules="Bitcoin-Streaming">
+      <parameters>
+        <parameter value="-Ypartial-unification" />
+      </parameters>
+    </profile>
+  </component>
+</project>

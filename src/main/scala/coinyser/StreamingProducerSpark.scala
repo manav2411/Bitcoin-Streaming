@@ -1,0 +1,5 @@
+package coinyser
+
+class StreamingProducerSpark
+
+object StreamingProducerSpark extends StreamingProducerApp
